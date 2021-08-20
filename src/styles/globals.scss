@@ -1,0 +1,23 @@
+$primary: #3E5C76;
+$background: #F0EBD8;
+$highlights: #748CAB;
+$primary-dark: #1D2D44;
+$shadow: #0D1321;
+
+@mixin tablet {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media only screen and (min-width: 992px) {
+      @content;
+    }
+  }
+  
+  @mixin large {
+    @media only screen and (min-width: 1200px) {
+      @content;
+    }
+  }
