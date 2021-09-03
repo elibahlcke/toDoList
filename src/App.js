@@ -1,9 +1,13 @@
-import Header from './components/Header';
+import React, { useState } from 'react';
+import Container from './components/Container'
+import './styles/app.scss'
 
 function App() {
+  
   return (
-    <div className="App">
-      <Header />
+    <div className="app">
+      <Container />      
+      
     </div>
   );
 }

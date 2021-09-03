@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Todolist () {
+const Checkbox = () => {
     return (
         <div>
-            
+            checkbx
         </div>
     )
 }
 
-export default Todolist 
+export default Checkbox
