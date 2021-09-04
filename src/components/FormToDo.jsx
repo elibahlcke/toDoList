@@ -1,4 +1,5 @@
 import React, { useState} from 'react'
+import '../styles/form.scss'
 
 const FormToDo = props => {
     const [description, setDescription] = useState("");
@@ -10,6 +11,7 @@ const FormToDo = props => {
             done: false,
             id: (+new Date()).toString(),
             description
+            
         });
         setDescription("");
     }
@@ -25,7 +27,7 @@ const FormToDo = props => {
                         onChange={e => setDescription(e.target.value)}
                     />
                     <button 
-                        className="button pink"
+                        className="button violet"
                         disabled={description ? "" : "disabled"}
                      >Add</button>   
                 </div>
